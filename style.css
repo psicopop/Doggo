@@ -1,0 +1,184 @@
+:root{
+    --color-primary: #1f2937;
+    --color-secondary: #E5e7eb;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e5e7eb;
+}
+
+ul{
+    list-style: none;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.7;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container-one {
+background-color: var(--color-primary);
+padding-bottom: 10px;
+
+}
+
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: auto;
+    
+} 
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    
+    
+    
+    
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.navbar-nav-right li{
+    display: flex;
+    gap: 10px;
+}
+
+/* Top text part */
+
+
+
+
+.text-left-up h2{
+ font-size: 48px;
+ font-weight: bolder;
+ color: #f9faf8;
+ padding-bottom:0px;
+ padding-top: 50px;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+
+
+
+.text-left-bottom{
+    font-size: 18px;
+    color: #E5e7eb;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.text-header{
+    
+    margin-left: 775px;
+    margin-right: 775px;
+}
+
+.image-box1-right{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* container 2 */
+
+.container-two{
+    background-color: white;
+}
+
+.container-two h2{
+    text-align: center;
+}
+
+.container-two-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 50px;
+  }
+
+  .info {
+    max-width: 200px;
+  }
+
+.container-two-images img{
+    width: 200px;
+    height: 200px;
+}   
+
+.information{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder; 
+  padding-top: 30px;
+  padding-bottom: 50px; 
+}
+
+.container-three{
+background-color: #E5e7eb;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.evangelion{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+
